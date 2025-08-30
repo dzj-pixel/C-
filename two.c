@@ -1,16 +1,17 @@
-//#include<stdio.h>
-///*
-//¼ÆËã1+2+3+...+nµÄÖµ£¬ÆäÖĞnÓÉÓÃ»§ÊäÈë¡£
-//*/
-//int main()
-//{
-//	int n = 0;
-//	scanf_s("%d", &n);
-//	int sum = 0;
-//	for (int i = 1; i <= n; i++)
-//	{
-//		sum = sum + i;
-//	}
-//	printf("%d", sum);
-//	return 0;
-//}
+#include<stdio.h>
+/*
+è®¡ç®—1+2+3+...+nçš„å€¼ï¼Œå…¶ä¸­nç”±ç”¨æˆ·è¾“å…¥ã€‚
+*/
+int main()
+{
+	int n = 0;
+	scanf_s("%d", &n);
+	int sum = 0;
+	for (int i = 1; i <= n; i++)
+	{
+		sum = sum + i;
+	}
+	printf("%d", sum);
+	return 0;
+
+}
